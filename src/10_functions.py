@@ -13,9 +13,9 @@ num = int(num)
 
 def isEven(n):
     if n % 2 == 0:
-        return True
+        print("Even")
     else:
-        return False
+        print("Odd")
 
 
 print(isEven(num))
