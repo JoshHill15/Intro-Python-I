@@ -10,3 +10,12 @@ num = int(num)
 
 # YOUR CODE HERE
 
+
+def isEven(n):
+    if n % 2 == 0:
+        return True
+    else:
+        return False
+
+
+print(isEven(num))
