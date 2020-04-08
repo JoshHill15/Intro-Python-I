@@ -38,9 +38,6 @@ if len(sys.argv) > 1:
     year = datetime.now().year
     if len(sys.argv) > 2:
         year = sys.argv[2]
-    print (calendar.month(int(year), int(month)))
+    print(calendar.month(int(year), int(month)))
 else:
-    print (calendar.month(datetime.now().year, datetime.now().month))
-
-
-print msg
+    print(calendar.month(datetime.now().year, datetime.now().month))
